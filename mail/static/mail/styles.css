@@ -1,0 +1,51 @@
+textarea {
+    min-height: 400px;
+}
+
+body {
+    background-color: rgb(223, 248, 207);
+}
+
+.btn {
+    background-color: rgb(181, 255, 181);
+}
+
+input[type=submit] {
+    margin-top: 12px;
+    float: right;
+}
+
+.read {
+    background-color: rgb(88, 133, 88);
+}
+.mail_container {
+    color: black;
+    background-color: rgb(194, 255, 194);
+    margin: 18px auto;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+
+.mail_container:hover {
+    background-color: rgb(160, 255, 160);
+    cursor: pointer;
+}
+
+.sender {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(95, 95, 95);
+}
+
+.subject {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h2, h3 {
+    font-weight: 700;
+}
